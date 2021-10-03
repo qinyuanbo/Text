@@ -27,6 +27,7 @@ public class MyTextview extends androidx.appcompat.widget.AppCompatTextView {
         if (event.getAction()==MotionEvent.ACTION_DOWN){
             Toast.makeText(getContext(),this.getText().toString(),Toast.LENGTH_SHORT).show();
         }
+        //lala
         return true;
     }
 }
