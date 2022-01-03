@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView viewById = (RecyclerView) findViewById(R.id.recycleView);
         viewById.setAdapter(new Myadpet(objects));
         viewById.setLayoutManager(new Mymarger());
-        //lalal
+        //lalallalla
 
     }
 }
